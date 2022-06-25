@@ -2,7 +2,6 @@ int waterSensorPin = A0;
 int blueLedPin = 13;
 int greenLedPin = 12;
 int Delay = 100;
-char readData[2];
 String readString;
 
 // The setup function runs once, at the beginning:
@@ -19,6 +18,7 @@ void setup() {
 void loop() {
   // analogRead - as the name implies, read analog data from the specified pin number.
   int WaterSensorValue=analogRead(waterSensorPin);
+  // We must print the data to the serial port so that the Python program can read it:
   Serial.println(WaterSensorValue);
   char readChar;
   if (Serial.available() > 0) // If there are bytes available to read on the Arduino's serial port:
