@@ -23,9 +23,9 @@ def send_serial_to_arduino(byte_to_send):
 
 
 while True:
-    if board_ser.inWaiting() > 0:  # Wait until there is serial data to read - inWaiting() return the
+    if board_ser.inWaiting() > 0:  # Wait until there is serial data to read
         water_sensor_value = board_ser.readline().strip().decode('utf-8')
-        if water_sensor_value.isdigit():
+        if water_sensor_value.isdigit(): # Make sure the value is purely digits with no 'garbage'
             wsv_float = float(water_sensor_value.strip())
             water_level = round(((6. / 641.) * wsv_float), 1)
             if water_level <= 1:
