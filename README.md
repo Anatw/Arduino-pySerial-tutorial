@@ -29,6 +29,11 @@ https://realpython.com/arduino-python/
 Intro to Arduino:
 \
 https://learn.sparkfun.com/tutorials/what-is-an-arduino/all
+\
+Review of microcontrollers that are a good fit for Python:
+\
+https://ffrafat.medium.com/best-microcontrollers-for-python-305dd3135019
+
 
 <br />
 
