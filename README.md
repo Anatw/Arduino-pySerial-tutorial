@@ -6,7 +6,7 @@ https://www.arduino.cc/en/software
 
 <br />
 
-###Components you will need:
+### Components you will need:
 1. Arduino uno microcontroller.
 2. MH water sensor.
 3. Breadboard (optional).
@@ -17,7 +17,7 @@ https://www.arduino.cc/en/software
 
 <br />
 
-###Connect the arduino according to the scheme:
+### Connect the arduino according to the scheme:
 ![img.png](img.png)
 <br /><br />
 
