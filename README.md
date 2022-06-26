@@ -37,12 +37,13 @@ https://ffrafat.medium.com/best-microcontrollers-for-python-305dd3135019
 
 <br />
 
-####Project combining Arduino and Python:
+#### Project combining Arduino and Python:
 https://create.arduino.cc/projecthub/projects/tags/python
 
 <br />
 
-####Documentation:
+
+#### Documentation:
 Pyserial - https://pyserial.readthedocs.io/\
 serial python - https://pyfirmata.readthedocs.io/en/latest/
 \
